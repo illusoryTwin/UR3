@@ -1,2 +1,4 @@
 MUJOCO_LOG.TXT
 venv/
+test.xml
+mjmodel_without_inertia_1.xml

@@ -8,6 +8,15 @@
     <motor gear="10000" joint="wrist_2_joint" name="wrist_2_joint" ctrlrange="-500 500" ctrllimited="true"/>
     <motor gear="10000" joint="wrist_3_joint" name="wrist_3_joint" ctrlrange="-500 500" ctrllimited="true"/>
   </actuator>
+  <sensor>
+    <jointpos joint="shoulder_pan_joint"/>
+    <jointpos joint="shoulder_lift_joint"/>
+    <jointpos joint="elbow_joint"/>
+    <jointpos joint="wrist_1_joint"/>
+    <jointpos joint="wrist_2_joint"/>
+    <jointpos joint="wrist_3_joint"/>
+  </sensor>
+
   <asset>
     <mesh name="base" file="base.stl"/>
     <mesh name="shoulder" file="shoulder.stl"/>
@@ -65,4 +74,5 @@
       <body name="base" quat="0 0 0 -1"/>
     </body>
   </worldbody>
+
 </mujoco>
