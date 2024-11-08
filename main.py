@@ -31,7 +31,8 @@ import time
 import numpy as np
 
 # model_path = "ur_description/urdf/universalUR3.urdf"
-model_path = "ur_description/urdf/universalUR3_motor4.urdf"
+model_path = "ur_description/urdf/universalUR3_motor1.urdf"
+# model_path = "ur_description/urdf/universalUR3_motor4.urdf"
 
 
 model = mujoco.MjModel.from_xml_path(model_path)
